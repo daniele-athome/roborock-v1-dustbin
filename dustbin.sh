@@ -32,5 +32,5 @@ while read -r line; do
     else
         continue
     fi
-    mosquitto_pub -d -h "$MQTT_HOST" -t "$MQTT_TOPIC" -m "$PAYLOAD"
+    mosquitto_pub -d -h "$MQTT_HOST" -r -t "$MQTT_TOPIC" -m "$PAYLOAD"
 done
