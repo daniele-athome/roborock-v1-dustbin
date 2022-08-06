@@ -15,7 +15,10 @@ You will require a rooted vacuum robot with Valetudo already installed. You will
 * mosquitto-clients (depends on libmosquitto0)
 * jq
 
-> TODO copy script to /usr/bin and start it somehow at boot (how?)
+Copy `dustbin.sh` into `/usr/local/bin/dustbin` and give it execution permissions.
+
+To start it at boot there is a sample upstart configuration file in `upstart/dustbin.conf` that should do the job
+(although I just copied it from Valetudo and I didn't really know what I was doing :P). Place that into `/etc/init` and
 
 ## Internals
 
