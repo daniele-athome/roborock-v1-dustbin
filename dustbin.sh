@@ -10,7 +10,6 @@ WATCH_LOG="/var/run/shm/EVENTTASK_normal.log"
 
 yell() { echo "$0: $*" >&2; }
 die() { yell "$*"; exit 1; }
-try() { "$@" || die "cannot $*"; }
 check_for() { which "$@" >/dev/null || die "Unable to locate $*"; }
 
 check_for mosquitto_pub
