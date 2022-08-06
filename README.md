@@ -19,6 +19,7 @@ Copy `dustbin.sh` into `/usr/local/bin/dustbin` and give it execution permission
 
 To start it at boot there is a sample upstart configuration file in `upstart/dustbin.conf` that should do the job
 (although I just copied it from Valetudo and I didn't really know what I was doing :P). Place that into `/etc/init` and
+reboot the robot.
 
 ## Internals
 
