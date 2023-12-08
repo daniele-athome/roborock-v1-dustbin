@@ -1,7 +1,7 @@
 Roborock Dustbin
 ================
 
-Xiaomi Roborock 1st generation vacuum robot (`rockrobo.vacuum.v1`) [doesn't publish dustbin state](https://github.com/Hypfer/Valetudo/issues/1269#issuecomment-989857760) through its API.  
+Xiaomi Roborock 1st generation vacuum robots (`rockrobo.vacuum.v1`) don't publish dustbin state through their API.  
 
 This shell script will watch a log file written by one of the original firmware processes for a special string that can
 tell us when the dustbin is removed and put back into place. It will then publish a message to the standard Valetudo
