@@ -1,6 +1,8 @@
 Roborock Dustbin
 ================
 
+> I don't own this robot anymore so I'm archiving the project. Feel free to fork if needed.
+
 Xiaomi Roborock 1st generation vacuum robots (`rockrobo.vacuum.v1`) don't publish dustbin state through their API.  
 
 This shell script will watch a log file written by one of the original firmware processes for a special string that can
